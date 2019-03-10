@@ -1,0 +1,178 @@
+body {
+  font-family: "Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  line-height: 1.5;
+  color: #0000009e;
+}
+
+.title-l {
+  color: #000000d4;
+  letter-spacing: 10px;
+  font-size: 16px;
+  display: inline-block;
+  font-size: 23px;
+  transform: scale(.6, 0.8);
+}
+
+.flex-container-t {
+  display: flex;
+  margin-left: 17%;
+  margin-right: 21%;
+}
+
+.flex-container-t > div {
+  padding: 20px;
+}
+
+.flex-container-chat-content-l {
+  display: flex;
+  align-items: stretch;
+  margin-right: 21.5%;
+  margin-left: 21.5%;
+}
+
+.flex-container-chat-content-l > div {
+  width: 100px;
+  margin: 10px;
+}
+
+/* Style the left image */
+.flex-container-chat-content-l img.left {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+.flex-container-chat-content-r {
+  display: flex;
+  align-items: stretch;
+  margin-right: 21.5%;
+  margin-left: 21.5%;
+}
+
+.flex-container-chat-content-r > div {
+  width: 100px;
+  margin: 10px;
+}
+
+/* Style the right image */
+.flex-container-chat-content-r img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+  max-width: 60px;
+  width: 100%;
+  border-radius: 50%;
+  padding: 15px;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-left: 21.5%;
+  margin-right: 21.5%;
+}
+
+/* Chat containers */
+.container {
+  border-radius: 5px;
+  padding: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.message_body {
+  border-radius: 5px;
+  margin-right: auto;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%;
+ 
+}
+
+.message_body > p,
+.message_body > span {
+  padding: 15px;
+}
+
+.red {
+  color: #dc3545ba;
+}
+
+.blue {
+  color: #007bffb0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+}
+
+.time {
+  font-size: 0.8em;
+  color: #000000;
+}
+
+/* Style time text */
+.timeIcon {
+  width: 12px;
+  height: 12px;
+}
+
+/* Style arrow right and left  */
+.chat-arrow-l {
+  width: 10px;
+  height: 13px;
+  display: inline-block;
+  background: url(../assets/chat-arrow-l.png) no-repeat 0px 0px;
+  position: absolute;
+}
+
+.chat-arrow-r {
+  width: 10px;
+  height: 13px;
+  display: inline-block;
+  background: url(../assets/chat-arrow-r.png) no-repeat 0px 0px;
+  position: absolute;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.icon_wrapper_r {
+  float: right;
+  width: 10px;
+  height: 13px;
+  left: 10px;
+  top: -120px;
+  position: relative;
+}
+
+.icon_wrapper_l {
+  width: 10px;
+  height: 13px;
+  left: -10px;
+  top: 50px;
+  position: relative;
+}
+
+.clockIcon {
+  display: inline-block;
+  position: relative;
+  left: -3px;
+  top: 1px;
+}
