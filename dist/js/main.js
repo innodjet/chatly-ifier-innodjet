@@ -8,7 +8,7 @@ fetch('https://api.myjson.com/bins/1geede')
                                 )
                     // Load Chat Data
                     data.data.messages.forEach ( (el,index) => {
-                      if ( index%2 == 0 ) {
+                      if ( el.username == 'Mygel van Trabel' ) {
                         setLeftMessage( el.focused,
                                         el.image,
                                         el.message,
